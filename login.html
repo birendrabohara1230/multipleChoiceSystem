@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: rgb(33, 37, 41);
+            color: white;
+        }
+
+        .login {
+            display: flex;
+            flex-direction: column;
+
+            height: 600px;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .user-name,
+        .pass-word {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .username,
+        .password {
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+        label {
+            font-size: 18px;
+            margin-right: 5px;
+        }
+
+
+        .login-button button {
+            padding: 5px 15px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            background-color: rgb(8, 121, 8);
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="login">
+        <h2>Multiple Choice Answer Question System</h2>
+        <div class="user-name">
+            <input type="text" id="username" class="username" placeholder="username" required>
+        </div>
+        <div class="pass-word">
+            <input type="password" name="password" id="password" class="password" placeholder="password" required>
+        </div>
+        <div class="login-button">
+            <button class="loginButton">Login</button>
+        </div>
+    </div>
+
+
+    <!-- 
+        JavaScript Code Here
+     -->
+    <script>
+        const validUsername = 'root';
+        const validPassword = 'root';
+        document.addEventListener('DOMContentLoaded', () => {
+            const loginButton = document.querySelector('.loginButton');
+
+            document.querySelector('.password').addEventListener('keydown', (event) => {
+                if (event.keyCode === 13) {
+                    validateUser();
+                }
+            });
+
+
+            loginButton.addEventListener('click', () => {
+                validateUser();
+            });
+
+            function validateUser() {
+                const username = document.querySelector('.username').value;
+                const password = document.querySelector('.password').value;
+                if (validUsername === username && validPassword === password) {
+                    window.location.href = 'index.html';
+                }
+                else {
+                    alert('Invalid username or password');
+                }
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
