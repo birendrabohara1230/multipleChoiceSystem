@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const questionCount = parseInt(getQuestionNumber.value);
       generateQuestion(questionCount);
       document.querySelector(".result").innerHTML = "";
-      setTimeout(calculateResult, 420000);
+      setTimeout(calculateResult, (questionCount/2)*30000);
     }
   });
 
