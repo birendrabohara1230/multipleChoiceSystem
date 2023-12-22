@@ -204,7 +204,7 @@ export const questionAnswer = [
     opt: ["Rectangle", "Diamond", "Parallelogram", "Circle"],
     ans: "Parallelogram",
   },
- 
+
   {
     qns: "How many bits are in a byte in the binary number system?",
     opt: ["4 bits", "8 bits", "16 bits", "32 bits"],
@@ -1151,5 +1151,245 @@ export const questionAnswer = [
     qns: "Convert 125 to hexadecimal.",
     opt: ["7D", "7F", "81", "83"],
     ans: "7D"
+  },
+  {
+    qns: "How do you open a file for output in QBasic?",
+    opt: ["OPEN OUTPUT", "OPEN FOR OUTPUT", "OUTPUT FILE", "WRITE FILE"],
+    ans: "OPEN FOR OUTPUT"
+  },
+  {
+    qns: "How do you read a line from a text file in QBasic?",
+    opt: ["READ LINE", "INPUT LINE", "LINE INPUT", "GET LINE"],
+    ans: "LINE INPUT"
+  },
+  {
+    qns: "Which function is used to check if the end of a file is reached in QBasic?",
+    opt: ["EOF()", "ENDFILE()", "FILEEND()", "CHECKEOF()"],
+    ans: "EOF()"
+  },
+  {
+    qns: "What does the 'ERASE' command do in QBasic?",
+    opt: ["Delete a file", "Close a file", "Rename a file", "Create a new file"],
+    ans: "Delete a file"
+  },
+  {
+    qns: "How do you open a file for output in QBasic?",
+    opt: ["OPEN OUTPUT", "OPEN FOR OUTPUT", "OUTPUT FILE", "WRITE FILE"],
+    ans: "OPEN FOR OUTPUT"
+  },
+  {
+    qns: "How do you read a line from a text file in QBasic?",
+    opt: ["READ LINE", "INPUT LINE", "LINE INPUT", "GET LINE"],
+    ans: "LINE INPUT"
+  },
+  {
+    qns: "Which function is used to check if the end of a file is reached in QBasic?",
+    opt: ["EOF()", "ENDFILE()", "FILEEND()", "CHECKEOF()"],
+    ans: "EOF()"
+  },
+  {
+    qns: "What does the 'ERASE' command do in QBasic?",
+    opt: ["Delete a file", "Close a file", "Rename a file", "Create a new file"],
+    ans: "Delete a file"
+  },
+  {
+    qns: "How can you check if an error occurred during file operations in QBasic?",
+    opt: ["ERRORCODE", "ON ERROR", "ERRCODE", "ERRORCHECK"],
+    ans: "ON ERROR"
+  },
+  {
+    qns: "Which statement is used to close an open file in the QBasic code window?",
+    opt: ["END FILE", "CLOSE #filenum", "FINISH FILE", "CLOSE FILE"],
+    ans: "CLOSE #filenum"
+  },
+  {
+    qns: "What is the purpose of the LOC function in QBasic file handling?",
+    opt: ["Retrieves the location of the code window", "Returns the location of the file pointer in an open file", "Locks the code window for exclusive access", "Locates a specific record in a random access file"],
+    ans: "Returns the location of the file pointer in an open file"
+  },
+  {
+    qns: "How can you use the WRITE statement to add data to a file in QBasic code window?",
+    opt: ["WRITE #filenum, data$", "APPEND #filenum, data$", "ADD #filenum, data$", "INSERT #filenum, data$"],
+    ans: "WRITE #filenum, data$"
+  },
+  {
+    qns: "What does the 'MKDIR' command do in QBasic?",
+    opt: ["Make a new file", "Modify directory permissions", "Make a new directory", "Move a file"],
+    ans: "Make a new directory"
+  },
+  {
+    qns: "How can you retrieve the attributes of a file in QBasic code?",
+    opt: ["FILEATTR", "GETATTR", "ATTRFILE", "RETRIEVEATTR"],
+    ans: "FILEATTR"
+  },
+  {
+    qns: "In QBasic, what is the purpose of the 'FIELD' statement in file handling?",
+    opt: ["Specifies the length of a record", "Defines the structure of a random access file", "Sets the position of the file pointer", "Reads a specific field from a record"],
+    ans: "Defines the structure of a random access file"
+  },
+  {
+    qns: "What is the significance of the 'RANDOM' access mode in QBasic file handling?",
+    opt: ["Allows reading and writing at any position in the file", "Reads data sequentially from the beginning of the file", "Writes data sequentially to the end of the file", "Opens a file for random file access"],
+    ans: "Allows reading and writing at any position in the file"
+  },
+  {
+    qns: "How do you check if a file exists before opening it in QBasic?",
+    opt: ["FILEEXISTS()", "EXISTFILE()", "EXISTS()", "FILECHECK()"],
+    ans: "FILEEXISTS()"
+  },
+  {
+    qns: "Which statement is used to rename a file in QBasic?",
+    opt: ["RENAME", "REN", "RENAMEFILE", "ALTER"],
+    ans: "RENAME"
+  },
+  {
+    qns: "What is the purpose of the 'SYNC' command in QBasic file handling?",
+    opt: ["Flushes the file buffer to disk", "Synchronizes file access", "Ensures file integrity", "Saves file changes"],
+    ans: "Flushes the file buffer to disk"
+  },
+  {
+    qns: "In QBasic, how can you create a new directory using file handling commands?",
+    opt: ["MKDIR", "CREATE DIR", "NEWDIR", "MAKEDIR"],
+    ans: "MKDIR"
+  },
+  {
+    qns: "What does the 'APPEND' statement do in QBasic file handling?",
+    opt: ["Adds data to the end of a sequential file", "Appends a file to another file", "Inserts data into the middle of a file", "Creates a new file"],
+    ans: "Adds data to the end of a sequential file"
+  },
+  {
+    qns: "How do you read a specific record from a random access file in QBasic?",
+    opt: ["INPUT", "GET", "READ", "FETCH"],
+    ans: "GET"
+  },
+  {
+    qns: "What is the purpose of the 'RESET' command in QBasic file handling?",
+    opt: ["Resets the file pointer to the beginning of the file", "Closes the file", "Deletes the file", "Restarts the file operations"],
+    ans: "Resets the file pointer to the beginning of the file"
+  },
+  {
+    qns: "How can you lock a file for exclusive access in QBasic?",
+    opt: ["LOCK FILE", "EXCLUSIVE LOCK", "LOCK #filenum", "SET LOCK"],
+    ans: "LOCK #filenum"
+  },
+  {
+    qns: "Which QBasic command is used to get the file attributes of a file?",
+    opt: ["FILEATTR", "GETATTR", "ATTRFILE", "RETRIEVEATTR"],
+    ans: "FILEATTR"
+  },
+  {
+    qns: "What is the purpose of the 'UNLOCK' statement in QBasic file handling?",
+    opt: ["Unlocks a file for reading", "Removes a lock from a file", "Unlocks a file for writing", "Unlocks a file for exclusive access"],
+    ans: "Unlocks a file for exclusive access"
+  },
+  {
+    qns: "How do you determine the length of a file in QBasic?",
+    opt: ["FILELENGTH()", "LENGTH()", "LEN()", "FILESIZE()"],
+    ans: "FILESIZE()"
+  },
+  {
+    qns: "In QBasic, what is the purpose of the 'WRITE' statement in file handling?",
+    opt: ["Writes data to a file", "Reads data from a file", "Appends data to a file", "Closes a file"],
+    ans: "Writes data to a file"
+  },
+  {
+    qns: "What is the purpose of the 'IF...THEN' statement in QBasic?",
+    opt: ["To create a loop", "To make decisions based on a condition", "To define a subroutine", "To perform arithmetic operations"],
+    ans: "To make decisions based on a condition"
+  },
+  {
+    qns: "Which QBasic control structure is used for repetitive execution of a block of code?",
+    opt: ["IF...THEN", "CASE...SELECT", "DO...LOOP", "FOR...NEXT"],
+    ans: "DO...LOOP"
+  },
+  {
+    qns: "What does the 'SELECT CASE' statement do in QBasic?",
+    opt: ["Defines a subroutine", "Switches between different code sections", "Handles errors", "Saves the current program state"],
+    ans: "Switches between different code sections"
+  },
+  {
+    qns: "How is the 'WHILE...WEND' loop different from the 'DO...LOOP' loop in QBasic?",
+    opt: ["WHILE...WEND is used for pre-tested loops", "DO...LOOP is used for pre-tested loops", "They are interchangeable", "WHILE...WEND is used for post-tested loops"],
+    ans: "WHILE...WEND is used for pre-tested loops"
+  },
+  {
+    qns: "What is the role of the 'GOTO' statement in QBasic?",
+    opt: ["To create subroutines", "To jump to a specific line number", "To exit a loop", "To call a function"],
+    ans: "To jump to a specific line number"
+  },
+  {
+    qns: "Which statement is used to terminate the execution of a loop prematurely in QBasic?",
+    opt: ["EXIT", "TERMINATE", "BREAK", "END LOOP"],
+    ans: "EXIT"
+  },
+  {
+    qns: "In QBasic, what is the purpose of the 'FOR...NEXT' loop?",
+    opt: ["To create an infinite loop", "To iterate over a range of values", "To execute a block of code once", "To check conditions"],
+    ans: "To iterate over a range of values"
+  },
+  {
+    qns: "What is the primary use of the 'SUB...END SUB' structure in QBasic?",
+    opt: ["To define a variable", "To create a loop", "To declare a constant", "To define a subroutine"],
+    ans: "To define a subroutine"
+  },
+  {
+    qns: "How is the 'DO...LOOP UNTIL' loop different from 'DO...LOOP WHILE' in QBasic?",
+    opt: ["DO...LOOP UNTIL is used for pre-tested loops", "DO...LOOP WHILE is used for post-tested loops", "They are interchangeable", "DO...LOOP UNTIL is used for post-tested loops"],
+    ans: "DO...LOOP UNTIL is used for post-tested loops"
+  },
+  {
+    qns: "What does the 'ELSE' statement do in QBasic?",
+    opt: ["Indicates the end of a block of code", "Specifies an alternative block of code to execute", "Creates a nested loop", "Defines a subroutine"],
+    ans: "Specifies an alternative block of code to execute"
+  },
+  {
+    qns: "What is the purpose of the 'CASE ELSE' statement in QBasic's 'SELECT CASE' structure?",
+    opt: ["To handle all other cases not explicitly mentioned", "To terminate the 'SELECT CASE' structure", "To create an alternative case", "To define a subroutine"],
+    ans: "To handle all other cases not explicitly mentioned"
+  },
+  {
+    qns: "In QBasic, what does the 'RESUME' statement do?",
+    opt: ["Resumes normal program execution", "Resumes execution from a specific line", "Restarts the program", "Resumes execution after an error"],
+    ans: "Resumes execution after an error"
+  },
+  {
+    qns: "Which QBasic control structure is used for executing a block of code repeatedly while a condition is true?",
+    opt: ["DO...LOOP WHILE", "FOR...NEXT", "IF...THEN", "WHILE...WEND"],
+    ans: "WHILE...WEND"
+  },
+  {
+    qns: "What is the primary purpose of the 'EXIT DO' statement in QBasic?",
+    opt: ["To terminate the 'DO...LOOP' prematurely", "To exit a 'SELECT CASE' structure", "To break out of a 'WHILE...WEND' loop", "To end a 'FOR...NEXT' loop"],
+    ans: "To terminate the 'DO...LOOP' prematurely"
+  },
+  {
+    qns: "How do you use the 'ON...GOTO' statement in QBasic?",
+    opt: ["To create a subroutine", "To jump to a specific line number based on a condition", "To declare a constant", "To handle errors"],
+    ans: "To jump to a specific line number based on a condition"
+  },
+  {
+    qns: "What is the role of the 'STEP' keyword in the 'FOR...NEXT' loop in QBasic?",
+    opt: ["Specifies the number of iterations", "Defines the loop condition", "Sets the loop index", "Specifies the increment or decrement value"],
+    ans: "Specifies the increment or decrement value"
+  },
+  {
+    qns: "In QBasic, what does the 'EXIT FOR' statement do?",
+    opt: ["Exits a 'DO...LOOP' prematurely", "Exits a 'FOR...NEXT' loop prematurely", "Exits a 'WHILE...WEND' loop prematurely", "Exits a 'SELECT CASE' structure prematurely"],
+    ans: "Exits a 'FOR...NEXT' loop prematurely"
+  },
+  {
+    qns: "What is the purpose of the 'SUB...FUNCTION' structure in QBasic?",
+    opt: ["To create a subroutine", "To perform arithmetic operations", "To define variables", "To handle errors"],
+    ans: "To create a subroutine"
+  },
+  {
+    qns: "In QBasic, what does the 'END IF' statement indicate?",
+    opt: ["The end of a program", "The end of a loop", "The end of a conditional statement", "The end of a subroutine"],
+    ans: "The end of a conditional statement"
+  },
+  {
+    qns: "How is the 'DO...LOOP UNTIL' loop different from 'DO...LOOP WHILE'?",
+    opt: ["DO...LOOP UNTIL is used for pre-tested loops", "DO...LOOP WHILE is used for post-tested loops", "They are interchangeable", "DO...LOOP UNTIL is used for post-tested loops"],
+    ans: "DO...LOOP UNTIL is used for post-tested loops"
   },
 ];
