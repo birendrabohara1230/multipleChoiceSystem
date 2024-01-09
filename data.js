@@ -54,11 +54,7 @@ export const questionAnswer = [
     ],
     ans: "No variable name are not case sensitive",
   },
-  {
-    qns: 'Write down the output of the given program <br> <img src="images/1.png" alt="Image">',
-    opt: ["ram", "none", "ram ram", "end"],
-    ans: "ram",
-  },
+  
   {
     qns: "Which operator is used to get the remainder in QBASIC",
     opt: ["+", "mod", "%", "/"],
@@ -275,51 +271,6 @@ export const questionAnswer = [
     ],
     ans: "Hyper Text Markup Language",
   },
-  // {
-  //   qns: "What does the <img> tag do in HTML?",
-  //   opt: [
-  //     "Creates an image",
-  //     "Defines a link",
-  //     "Embeds a video",
-  //     "Displays a formatted text",
-  //   ],
-  //   ans: "Creates an image",
-  // // },
-  // {
-  //   qns: "What is the purpose of the <head> element in an HTML document?",
-  //   opt: [
-  //     "Defines the visible content of the page",
-  //     "Defines the main content of the page",
-  //     "Contains metadata about the document",
-  //     "Creates a header at the top of the page",
-  //   ],
-  //   ans: "Contains metadata about the document",
-  // },
-  // {
-  //   qns: "What does the &lt;b&gt; element represent in HTML?",
-  //   opt: ["Bold text", "Blockquote", "Break", "Button"],
-  //   ans: "Bold text",
-  // },
-  // {
-  //   qns: "What is the purpose of the <input> element with type 'checkbox'?",
-  //   opt: [
-  //     "Create a radio button",
-  //     "Display an image",
-  //     "Create a text field",
-  //     "Allow multiple selections",
-  //   ],
-  //   ans: "Allow multiple selections",
-  // },
-  // {
-  //   qns: "What is the role of the <meta> element in HTML?",
-  //   opt: [
-  //     "Define a hyperlink",
-  //     "Create a table",
-  //     "Embed multimedia",
-  //     "Provide metadata about the document",
-  //   ],
-  //   ans: "Provide metadata about the document",
-  // },
   {
     qns: "Which type of loop is known as a pre-tested loop?",
     opt: [
@@ -946,41 +897,6 @@ export const questionAnswer = [
     qns: "What does the expression: 2^3 * 4 - 6 evaluate to?",
     opt: ["14", "26", "16", "12"],
     ans: "16",
-  },
-  {
-    qns: 'What will be the output of given program <br> <img src="images/2.png" alt="Image Loading">',
-    opt: [
-      "5 times ram in different line",
-      "6 times ram in ram line",
-      "6 times ram in different line",
-      "5 times ram in same line",
-    ],
-    ans: "6 times ram in different line",
-  },
-  {
-    qns: 'What will be the output of given program <br> <img src="images/3.png" alt="Image Loading">',
-    opt: [
-      "Kanchanpur is",
-      "Kanchanpur is <br> Mahendranagar is",
-      "Mahendranagar is",
-      "Mahendranagar is <br> Kanchanpur is",
-    ],
-    ans: "Mahendranagar is",
-  },
-  {
-    qns: 'What will be the output of given program <br> <img src="images/4.png" alt="Image Loading">',
-    opt: [
-      "Kanchanpur is",
-      "Kanchanpur is <br> Mahendranagar is",
-      "Mahendranagar is",
-      "Mahendranagar is <br> Kanchanpur is",
-    ],
-    ans: "Mahendranagar is <br> Kanchanpur is",
-  },
-  {
-    qns: 'What will be the output of given program <br> <img src="images/6.png" alt="Image Loading">',
-    opt: ["kanchanpur", "0", "a", "a$"],
-    ans: "0",
   },
   {
     qns: "What does CPU stand for?",
